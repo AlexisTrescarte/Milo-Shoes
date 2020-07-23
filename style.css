@@ -48,7 +48,7 @@ a:active {
 --------------------------------------------------------------*/
 @media screen and (min-width: 992px) {
   .outer-container {
-    padding-left: 80px;
+    padding-left: 0;
   }
 }
 
@@ -70,11 +70,6 @@ a:active {
 
 .logo {
   width: 60px;
-}
-
-.logo2 {
-  width: 100px;
-  margin-left: 70px;
 }
 
 .site-title {
@@ -634,7 +629,7 @@ a:active {
 
 .blog-page .blog-content figure,
 .blog-page .blog-content .entry-content {
-  width: 50%;
+  width: 100%;
 }
 
 .blog-page .blog-content figure {
@@ -707,8 +702,8 @@ a:active {
 }
 
 .row {
-  margin-left: 100px;
-  margin-top: 50px;
+  margin-top: 5%;
+  margin-bottom: 5%;
 }
 
 .contener {
@@ -761,6 +756,15 @@ a:active {
   .blog-page .blog-content .entry-content h3 a {
     font-size: 1.5rem;
   }
+
+  .blog-page .blog-content {
+    margin: 0;
+    padding: 0;
+  }
+  .figure {
+    margin: 0;
+    padding: 0;
+  }
 }
 
 @media screen and (min-width: 768px) {
@@ -774,6 +778,13 @@ a:active {
 
   .blog-page .blog-content .entry-content h3::before {
     left: -50px;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .row {
+    margin-left: 10%;
+    margin-top: 5%;
   }
 }
 
